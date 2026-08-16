@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Samantha Cruz favicon">
+  <rect width="64" height="64" fill="#000000"/>
+  <g transform="translate(0 2)">
+    <path d="M29 8c-1-8 8-12 15-4 7 8 3 18-5 18-7 0-11-6-10-14Z" fill="#55d93f"/>
+    <path d="M28 12c-8-8-18-6-20 4-2 11 4 18 14 17 9-1 15-9 13-17-1-4-4-6-7-4Z" fill="#ef4444"/>
+    <path d="M46 12c-8-8-18-6-20 4-2 11 4 18 14 17 9-1 15-9 13-17-1-4-4-6-7-4Z" fill="#ef4444"/>
+    <path d="M30 20c-4 2-5 7-4 11 1 6 7 10 12 10 7 0 13-4 15-10 2-6-1-12-8-14-4-2-10-1-15 3Z" fill="#ef4444"/>
+    <path d="M17 8c0 0 4 4 10 5" stroke="#3ad945" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <path d="M25 10C18 4 10 4 7 10c-3 7 0 17 9 18 8 1 15-5 16-13 1-7-6-9-15-8Z" fill="#ef4444"/>
+    <path d="M47 10C54 4 62 4 65 10c3 7 0 17-9 18-8 1-15-5-16-13-1-7 6-9 15-8Z" fill="#ef4444"/>
+    <path d="M30 8c-1-2 1-5 4-7 3-2 7-2 10 1 2 2 2 5 1 7-1 2-4 3-7 3-6 0-8-2-8-4Z" fill="#55d93f"/>
+    <path d="M17 9c4-7 14-8 20-3" stroke="#3ad945" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <path d="M32 22c2 0 3 1 3 3 0 2-1 3-3 3-2 0-3-1-3-3 0-2 1-3 3-3Z" fill="#f18686" opacity="0.3"/>
+    <path d="M43 22c2 0 3 1 3 3 0 2-1 3-3 3-2 0-3-1-3-3 0-2 1-3 3-3Z" fill="#f18686" opacity="0.3"/>
+    <path d="M11 26c-2-1-4 0-5 3 0 2 0 5 3 7 3 2 8 0 9-3 1-3-2-6-7-7Z" fill="#ef4444"/>
+    <path d="M55 26c2-1 4 0 5 3 0 2 0 5-3 7-3 2-8 0-9-3-1-3 2-6 7-7Z" fill="#ef4444"/>
+  </g>
+</svg>

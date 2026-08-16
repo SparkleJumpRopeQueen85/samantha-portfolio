@@ -16,24 +16,28 @@ const sora = Sora({
 })
 
 export const metadata: Metadata = {
-  title: 'Samantha Ixchel Cruz Techalote · Software Engineer',
+  title: 'Samantha Cruz | Software, Math & AI',
   description:
-    'Portfolio of Samantha Ixchel Cruz Techalote, a Software Engineer specializing in full stack development, cloud (AWS), and SAP enterprise solutions.',
+    'Portfolio of Samantha Cruz, a creative technologist specializing in software, mathematics, and artificial intelligence.',
   generator: 'v0.app',
   keywords: [
+    'Samantha Cruz',
     'Software Engineer',
-    'Full Stack Developer',
-    'AWS',
-    'SAP ABAP',
-    'React',
-    'Next.js',
+    'Math',
+    'AI',
+    'Artificial Intelligence',
     'Portfolio',
   ],
-  authors: [{ name: 'Samantha Ixchel Cruz Techalote' }],
+  authors: [{ name: 'Samantha Cruz' }],
+  icons: {
+    icon: '/favicon.svg',
+    shortcut: '/favicon.svg',
+    apple: '/favicon.svg',
+  },
   openGraph: {
-    title: 'Samantha Ixchel Cruz Techalote · Software Engineer',
+    title: 'Samantha Cruz | Software, Math & AI',
     description:
-      'Premium portfolio of a full stack and cloud Software Engineer.',
+      'Portfolio of Samantha Cruz, exploring software, mathematics, and AI.',
     type: 'website',
   },
 }
