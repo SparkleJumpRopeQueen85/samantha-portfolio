@@ -1,5 +1,5 @@
 import type { LucideIcon } from "lucide-react"
-import { Cloud, Building2, Bot, Rocket } from "lucide-react"
+import { Sigma, Building2, Bot, Rocket } from "lucide-react"
 
 export type ValueFit = {
   id: string
@@ -14,7 +14,7 @@ export const valueFits: ValueFit[] = [
   {
     id: "cloud",
     chip: "Mi forma de crear software",
-    icon: Cloud,
+    icon: Sigma,
     heading: "Comprender. Modelar. Construir",
     description:
       "Cada proyecto comienza analizando el problema desde una perspectiva matemática. A partir de esa base, diseño algoritmos, arquitecturas y aplicaciones que son eficientes, escalables y fáciles de mantener.",

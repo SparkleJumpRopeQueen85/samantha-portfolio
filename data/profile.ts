@@ -56,6 +56,6 @@ export const stats = [
     value: 20,
     suffix: "+",
     detail: "El combustible detrás de cada línea de código",
-    icon: "coffee",
+    icon: "music",
   },
 ]

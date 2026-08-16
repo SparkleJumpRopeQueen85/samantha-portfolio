@@ -5,7 +5,7 @@ import { SectionHeading } from "@/components/section-heading"
 import { AnimatedCounter } from "@/components/animated-counter"
 import { profile, stats } from "@/data/profile"
 import { useTranslate } from "@/lib/i18n/dictionary"
-import { Rocket, Layers, Award, Coffee, type LucideIcon } from "lucide-react"
+import { Rocket, Layers, Award, Headphones, Music4, type LucideIcon } from "lucide-react"
 
 const focusAreas = ["Math", "Full Stack", "AI", "UX / UI"]
 
@@ -13,7 +13,8 @@ const statIcons: Record<string, LucideIcon> = {
   rocket: Rocket,
   layers: Layers,
   award: Award,
-  coffee: Coffee,
+  music: Music4,
+  headphones: Headphones,
 }
 
 const statThemes = [
@@ -69,21 +70,37 @@ export function About() {
             {stats.map((stat, i) => {
               const Icon = statIcons[stat.icon]
               const theme = statThemes[i % 2]
+              const showMusicSet = stat.icon === "music" || stat.icon === "headphones"
+
               return (
                 <Reveal key={stat.label} delay={i * 0.08} direction="up">
                   <div
                     className={`group relative flex h-full flex-col gap-4 overflow-hidden rounded-2xl border p-6 glass transition-all duration-300 hover:-translate-y-1.5 ${theme.ring} ${theme.glow}`}
                   >
                     {/* Icono decorativo de fondo */}
-                    <Icon
-                      className="pointer-events-none absolute -bottom-4 -right-4 h-24 w-24 text-foreground/[0.04] transition-transform duration-500 group-hover:rotate-6 group-hover:scale-110"
-                      strokeWidth={1}
-                    />
+                    {showMusicSet ? (
+                      <div className="pointer-events-none absolute -bottom-4 -right-4 flex items-center gap-2 text-foreground/[0.04] transition-transform duration-500 group-hover:rotate-6 group-hover:scale-110">
+                        <Music4 className="h-20 w-20" strokeWidth={1} />
+                        <Headphones className="h-16 w-16" strokeWidth={1} />
+                      </div>
+                    ) : (
+                      <Icon
+                        className="pointer-events-none absolute -bottom-4 -right-4 h-24 w-24 text-foreground/[0.04] transition-transform duration-500 group-hover:rotate-6 group-hover:scale-110"
+                        strokeWidth={1}
+                      />
+                    )}
 
                     <span
                       className={`relative flex h-11 w-11 items-center justify-center rounded-xl bg-gradient-to-br ${theme.badge} ring-1 ring-inset ring-current/20 transition-transform duration-300 group-hover:scale-110`}
                     >
-                      <Icon className="h-5 w-5" strokeWidth={2} />
+                      {showMusicSet ? (
+                        <div className="flex items-center gap-1">
+                          <Music4 className="h-4 w-4" strokeWidth={2} />
+                          <Headphones className="h-4 w-4" strokeWidth={2} />
+                        </div>
+                      ) : (
+                        <Icon className="h-5 w-5" strokeWidth={2} />
+                      )}
                     </span>
 
                     <div className="relative flex flex-col gap-1">
